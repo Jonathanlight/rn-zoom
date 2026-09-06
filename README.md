@@ -1,4 +1,4 @@
-# rn-zoom
+# rn-zoom-next
 
 **Tap to open, pinch to zoom, swipe to dismiss. The lightbox React Native never got.**
 
@@ -19,7 +19,7 @@ pinch-to-zoom.
 
 ```diff
 - import Lightbox from 'react-native-lightbox';
-+ import { Zoom } from 'rn-zoom';
++ import { Zoom } from 'rn-zoom-next';
 ```
 
 ```diff
@@ -32,7 +32,7 @@ pinch-to-zoom.
 
 Every prop of the original is supported under its original name, except one.
 
-| | `react-native-lightbox` | `rn-zoom` |
+| | `react-native-lightbox` | `rn-zoom-next` |
 |---|---|---|
 | `navigator` prop | required on Android | **removed** — unnecessary since RN 0.20 |
 | Pinch-to-zoom | not available | built in, with pan, double tap and zoom limits |
@@ -47,7 +47,7 @@ Every prop of the original is supported under its original name, except one.
 ### Installation
 
 ```sh
-npm install rn-zoom react-native-reanimated react-native-worklets react-native-gesture-handler
+npm install rn-zoom-next react-native-reanimated react-native-worklets react-native-gesture-handler
 ```
 
 ---
@@ -59,7 +59,7 @@ writing their own viewer.
 
 A vertical drag means two different things depending on the zoom level, and the
 two have to hand over to each other at the edges of the image or the viewer feels
-stuck. The rules `rn-zoom` uses:
+stuck. The rules `rn-zoom-next` uses:
 
 | State | Drag | Result |
 |---|---|---|
@@ -90,7 +90,7 @@ row of that table has a test in
 ### `<Zoom>`
 
 ```tsx
-import { Zoom } from 'rn-zoom';
+import { Zoom } from 'rn-zoom-next';
 
 <Zoom
   activeProps={{ source: fullResolution }}

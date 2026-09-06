@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-zoom",
-    "slug": "rn-zoom-example",
+    "name": "rn-zoom-next",
+    "slug": "rn-zoom-next-example",
     "version": "0.1.0",
     "newArchEnabled": true,
     "ios": { "supportsTablet": true },

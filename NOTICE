@@ -1,4 +1,4 @@
-rn-zoom
+rn-zoom-next
 Copyright (c) 2026 Jonathan Kablan and contributors
 
 This project reproduces the public API — prop names and callback names — of
@@ -15,5 +15,5 @@ implementation here is written against Reanimated 4, react-native-gesture-handle
 and the New Architecture. The API surface is reproduced deliberately, for
 compatibility.
 
-rn-zoom is an independent community rewrite. It is not affiliated with, nor
+rn-zoom-next is an independent community rewrite. It is not affiliated with, nor
 endorsed by, the authors of react-native-lightbox.

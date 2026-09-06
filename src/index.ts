@@ -1,5 +1,5 @@
 /**
- * rn-zoom — tap to open, pinch to zoom, swipe to dismiss.
+ * rn-zoom-next — tap to open, pinch to zoom, swipe to dismiss.
  *
  * Independent community rewrite. Not affiliated with, nor endorsed by, the
  * authors of react-native-lightbox. See NOTICE for attribution.

@@ -10,13 +10,13 @@ import {
 } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
-import { Zoom, ZoomGallery } from 'rn-zoom';
+import { Zoom, ZoomGallery } from 'rn-zoom-next';
 
 /** Twenty deterministic placeholder photos, so the grid needs no assets. */
 const PHOTOS = Array.from({ length: 20 }, (_, i) => ({
   key: `photo-${i}`,
-  source: { uri: `https://picsum.photos/seed/rn-zoom-${i}/1200/800` },
-  thumb: { uri: `https://picsum.photos/seed/rn-zoom-${i}/300/200` },
+  source: { uri: `https://picsum.photos/seed/rn-zoom-next-${i}/1200/800` },
+  thumb: { uri: `https://picsum.photos/seed/rn-zoom-next-${i}/300/200` },
   width: 1200,
   height: 800,
   accessibilityLabel: `Placeholder photo ${i + 1} of 20`,
@@ -31,7 +31,7 @@ export default function App() {
       <View style={[styles.root, dark && styles.rootDark]}>
         <StatusBar style={dark ? 'light' : 'dark'} />
         <ScrollView contentContainerStyle={styles.scroll}>
-          <Text style={[styles.title, dark && styles.textDark]}>rn-zoom</Text>
+          <Text style={[styles.title, dark && styles.textDark]}>rn-zoom-next</Text>
           <Text style={styles.subtitle}>
             Tap a photo to open it. Pinch to zoom, drag to pan, swipe to close.
           </Text>

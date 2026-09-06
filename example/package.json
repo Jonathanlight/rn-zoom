@@ -1,5 +1,5 @@
 {
-  "name": "rn-zoom-example",
+  "name": "rn-zoom-next-example",
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
@@ -12,7 +12,7 @@
     "react-native-gesture-handler": "^2.30.0",
     "react-native-reanimated": "^4.1.0",
     "react-native-worklets": "^0.6.0",
-    "rn-zoom": "file:.."
+    "rn-zoom-next": "file:.."
   },
   "devDependencies": {
     "@babel/core": "^7.25.0",
