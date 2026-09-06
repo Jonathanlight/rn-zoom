@@ -71,7 +71,6 @@
   },
   "homepage": "https://github.com/Jonathanlight/rn-zoom#readme",
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   }
 }
