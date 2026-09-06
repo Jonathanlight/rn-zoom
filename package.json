@@ -1,6 +1,6 @@
 {
   "name": "rn-zoom-next",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tap to open, pinch to zoom, swipe to dismiss — a modern lightbox for React Native",
   "license": "MIT",
   "type": "module",
