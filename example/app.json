@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "rn-zoom",
+    "slug": "rn-zoom-example",
+    "version": "0.1.0",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true },
+    "android": { "package": "com.rnzoom.example" }
+  }
+}

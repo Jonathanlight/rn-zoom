@@ -1,0 +1,19 @@
+rn-zoom
+Copyright (c) 2026 Jonathan Kablan and contributors
+
+This project reproduces the public API — prop names and callback names — of
+react-native-lightbox, so that projects can migrate with a small, mechanical
+change:
+
+  react-native-lightbox
+  Copyright (c) 2015 Joel Arvidsson
+  Licensed under the MIT License
+  https://github.com/oblador/react-native-lightbox
+
+No source code or animation constant is copied from that project; the
+implementation here is written against Reanimated 4, react-native-gesture-handler
+and the New Architecture. The API surface is reproduced deliberately, for
+compatibility.
+
+rn-zoom is an independent community rewrite. It is not affiliated with, nor
+endorsed by, the authors of react-native-lightbox.

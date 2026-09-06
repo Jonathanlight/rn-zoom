@@ -1,0 +1,77 @@
+{
+  "name": "rn-zoom",
+  "version": "0.1.0",
+  "description": "Tap to open, pinch to zoom, swipe to dismiss — a modern lightbox for React Native",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "src",
+    "NOTICE",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf lib",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-native": ">=0.78.0",
+    "react-native-gesture-handler": ">=2.20.0",
+    "react-native-reanimated": ">=4.0.0",
+    "react-native-worklets": ">=0.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.1.0",
+    "react-native": "^0.81.4",
+    "react-native-gesture-handler": "^2.32.0",
+    "react-native-reanimated": "^4.6.0",
+    "react-native-worklets": "^0.6.1",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  },
+  "keywords": [
+    "react-native",
+    "lightbox",
+    "image-viewer",
+    "zoom",
+    "pinch-to-zoom",
+    "gallery",
+    "react-native-lightbox",
+    "reanimated",
+    "gesture-handler",
+    "new-architecture",
+    "expo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonathanlight/rn-zoom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jonathanlight/rn-zoom/issues"
+  },
+  "homepage": "https://github.com/Jonathanlight/rn-zoom#readme",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
